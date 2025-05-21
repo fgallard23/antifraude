@@ -1,5 +1,4 @@
-/* Change to the SocialMedia database */
-USE Journal;
+USE JournalDatabase;
 GO
 
 /* Create user */
@@ -7,7 +6,7 @@ IF NOT EXISTS(SELECT *
 FROM sys.server_principals
 WHERE name = 'SMUserTrx')
 BEGIN
-	CREATE LOGIN SMUserTrx WITH PASSWORD=N'SmPA$$06500', DEFAULT_DATABASE=Journal
+	CREATE LOGIN SMUserTrx WITH PASSWORD=N'SmPA$$06500', DEFAULT_DATABASE=JournalDatabase
 END
 
 
