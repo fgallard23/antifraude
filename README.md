@@ -26,15 +26,19 @@
 21)	LINQ
 22)	SSMS
 
-Versión de dotnet instalada 
+## Versión de dotnet instalada 
 dotnet --version 
-Versión de Docker instalada 
+
+## Versión de Docker instalada 
 docker --version
-Versión de Docker Compose instalado
+
+## Versión de Docker Compose instalado
 docker-compose --version 
-Crear una red con el siguiente comando  
+
+## Crear una red con el siguiente comando  
 docker network create --attachable -d bridge mydockernetwork
-Para verificar la red si fue creada 
+
+## Para verificar la red si fue creada 
 docker network ls
 Para apache kafka se distribuye el docker compose 
 docker-compose.yml
