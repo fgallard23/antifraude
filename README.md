@@ -1,27 +1,28 @@
-Arquitectura de la solución 
+# Arquitectura de la solución 
  
-Tecnologías Utilizadas 
-•	Arquitectura Hexagonal
-•	Microservicios
-•	DDD
-•	CQRS
-•	TDD
-•	Aggregate
-•	Mediator Pattern
-•	Event Sourcing
-•	SOLID
-•	DRY
-•	YAGNI
-•	Kafka
-•	Entity Framework Core
-•	Web API
-•	SQL Server
-•	MongoDB
-•	Docker
-•	Postman
-•	REST
-•	NET 8
-•	LINQ
+## Tecnologías Utilizadas 
+1)	Arquitectura Hexagonal
+2)	Microservicios
+3)	DDD
+4)	CQRS
+5)	TDD
+6)	Aggregate
+7)	Mediator Pattern
+8)	Event Sourcing
+9)	SOLID
+10)	DRY
+11)	YAGNI
+12)	Kafka
+13)	Entity Framework Core
+14)	Web API
+15)	SQL Server
+16)	MongoDB
+17)	Docker
+18)	Postman
+19)	REST
+20	NET 8
+21)	LINQ
+22)	SSMS
 
 Versión de dotnet instalada 
 dotnet --version 
