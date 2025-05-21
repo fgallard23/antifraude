@@ -55,7 +55,8 @@ docker run -it -d --name mongo-container -p 27017:27017 --network mydockernetwor
 ## Para SQL Server
 docker run -d --name sql-container --network mydockernetwork --restart always -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=$tr0ngS@P@ssw0rd02' -e 'MSSQL_PID=Express' -p 1433:1433 mcr.microsoft.com/mssql/server:2017-latest-ubuntu
 
-Se Docker Desktop se puede visualizar los dockers creados hasta el momento 
+En Docker Desktop se puede visualizar los dockers creados hasta el momento 
+
 ![Alt text](docker%20desktop.png)
 
 ## En SSMS 
@@ -90,7 +91,7 @@ Se Docker Desktop se puede visualizar los dockers creados hasta el momento
 
 ![Alt text](kafka%20topic%20request.PNG)
 
-5) El micro de antifraude realiza la validación y el resultado se muestra en el otro topic, que en base al monto es transacción exitosa 
+5) El micro de antifraude realiza la validación y el resultado se muestra en el otro topic, que en base al monto la transacción es exitosa 
 
 ![Alt text](kafka%20topic%20response.PNG)
 
