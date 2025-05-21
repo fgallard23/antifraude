@@ -1,6 +1,8 @@
 # Arquitectura de la solución 
 
- ![Alt text](Architecture.png)
+![Alt text](Architecture.png)
+
+[![Watch the video](https://i.sstatic.net/Vp2cE.png)](antifraude.mp4)
 
 **NOTA: revisar el video cargado en challenge.rar** 
 
