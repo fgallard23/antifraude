@@ -2,7 +2,7 @@
 
 ![Alt text](Architecture.png)
 
-[<video src='antifraude.mp4' width=180/>](https://www.youtube.com/watch?v=_j2BLsN34k8&ab_channel=EcuadorenvivoTV)
+[![Watch the video](https://raw.githubusercontent.com/username/repository/branch/path/to/thumbnail.jpg)](https://github.com/fgallard23/antifraude/blob/main/antifraude.mp4)
 
 **NOTA: revisar el video cargado en challenge.rar** 
 
