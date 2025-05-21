@@ -1,6 +1,6 @@
 # Arquitectura de la solución 
 
- ![Alt text]([https://res.cloudinary.com/demo/image/upload/w_300/sample.jpg](https://github.com/fgallard23/antifraude/blob/main/Architecture.png))
+ ![Alt text](Architecture.png)
  
 ## Tecnologías Utilizadas 
 1)	Arquitectura Hexagonal
