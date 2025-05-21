@@ -1,7 +1,9 @@
 # Arquitectura de la solución 
 
  ![Alt text](Architecture.png)
- 
+
+**NOTA: revisar el video cargado en challenge.rar** 
+
 ## Tecnologías Utilizadas 
 1)	Arquitectura Hexagonal
 2)	Microservicios
@@ -59,28 +61,40 @@ Se Docker Desktop se puede visualizar los dockers creados hasta el momento
 ## En SSMS 
 1) Ejecutar WebTransactionAPI con el usuario sa para que se creen la tabla y base de datos del journal
 2) Ejecutar el script Create-SMUser.sql el cual permite crear el usuario propietario para la base de datos creada
-3) Cambiar las conexiones de los servicios en las dos microservicios anti-fraude y transacciones
 
 ![Alt text](crear%20usuario%20en%20la%20base%20de%20datos%20de%20sql%20server.png)
+   
+3) Cambiar las conexiones de los servicios en las dos microservicios anti-fraude y transacciones
 
-3) 
-Con Entity Framework ejecutar WebTransactionAPI con usuario sa para crear la tabla 
-Cambiar el string de conexión archivo Create-SMUser.sql
+![Alt text](cambiar%20el%20string%20de%20conexion.png)
  
- 
+## Estructura del proyecto
 
-Estructura del proyecto
+![Alt text](hexagonal-architectura.png)
+
+## Testing 
+
+1) Con postman se ejecuta 
+
+![Alt text](postman%20test.PNG)
+
+2) Se puede visualizar en la base de datos la trx con estado pendiente 
+
+![Alt text](sql%20server%20pending.PNG)
+
+3) Event Sourcing se muestra en MongoDB el evento almacenado 
+
+![Alt text](event%20sourcing.PNG)
  
-Se requiere ejecutar los dos microservicios o como se muestra en el video haciendo debug 
-Aprobado 
- 
-Se puede visualizar en la base de datos almacenado con el estado pendiente 
- 
-Para el tema de evento sourcing se puede visualizar en mongo la transacción que se ejecuto 
- 
-En Kafka podemos visualizar que el topic se tiene el mensaje de la transacción 
- 
-En el otro tópico después de ejecutar se puede visualizar que la transacción fue exitosa 
- 
-El estado fue actualizado en la base de datos. 
+4) En Kafka en el topic request se puede visualizar el mensaje de la transacción 
+
+![Alt text](kafka%20topic%20request.PNG)
+
+5) El micro de antifraude realiza la validación y el resultado se muestra en el otro topic, que en base al monto es transacción exitosa 
+
+![Alt text](kafka%20topic%20response.PNG)
+
+6) para visualizar el estado en la base de datos sql server con SSMS.
+   
+![Alt text](sql%20server%20approved%20trx.PNG)
  
