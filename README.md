@@ -2,7 +2,7 @@
 
 ![Alt text](Architecture.png)
 
-[![Watch the video](https://raw.githubusercontent.com/username/repository/branch/path/to/thumbnail.jpg)](https://github.com/fgallard23/antifraude/blob/main/antifraude.mp4)
+[![Watch the video](https://github.com/fgallard23/antifraude/blob/main/Architecture.png)](https://github.com/fgallard23/antifraude/blob/main/antifraude.mp4)
 
 **NOTA: revisar el video cargado en challenge.rar** 
 
