@@ -24,9 +24,10 @@
 17)	Docker
 18)	Postman
 19)	REST
-20	NET 8
+20)	NET 8
 21)	LINQ
 22)	SSMS
+23)	JSON
 
 ## Versión de dotnet instalada 
 dotnet --version 
