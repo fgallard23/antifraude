@@ -2,7 +2,7 @@
 
 ![Alt text](Architecture.png)
 
-**NOTA: revisar el video cargado en antifraude.mp4, cargado al github** 
+NOTA: revisar el video cargado **antifraude.mp4**, cargado en el github, descargarlo 
 
 ## Tecnologías Utilizadas 
 1)	Arquitectura Hexagonal
