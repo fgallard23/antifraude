@@ -2,9 +2,7 @@
 
 ![Alt text](Architecture.png)
 
-[![Watch the video](https://raw.githubusercontent.com/fgallard23/antifraude/main/hexagonal-architectura.png)](https://raw.githubusercontent.com/fgallard23/antifraude/main/antifraude.mp4)
-
-**NOTA: revisar el video cargado en challenge.rar** 
+**NOTA: revisar el video cargado en antifraude.mp4, cargado al github** 
 
 ## Tecnologías Utilizadas 
 1)	Arquitectura Hexagonal
