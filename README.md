@@ -2,7 +2,7 @@
 
 ![Alt text](Architecture.png)
 
-![Watch the video](antifraude.mp4)
+<video src='antifraude.mp4' width=180/>
 
 **NOTA: revisar el video cargado en challenge.rar** 
 
